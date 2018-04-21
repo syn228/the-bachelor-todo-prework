@@ -51,5 +51,8 @@ def get_average_age_for_season(data, season)
     if season_number == season
     stats.collect do |details|
       details["age"].to_i.merge.round
+    end
+  end
+end
       
 end
