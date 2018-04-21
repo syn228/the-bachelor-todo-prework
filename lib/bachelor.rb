@@ -52,6 +52,6 @@ def get_average_age_for_season(data, season)
   end
   total_age = age.reduce(0){|sum, the_age| sum += the_age}
   total_contestants = age.count.to_f
-  (total_age/)
+  (total_age/total_contestants).round
       
 end
