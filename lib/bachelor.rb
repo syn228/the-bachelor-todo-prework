@@ -47,6 +47,6 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  age = data[season].collect 
+  age = data[season].collect do |
       
 end
