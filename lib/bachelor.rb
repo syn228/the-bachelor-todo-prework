@@ -50,6 +50,6 @@ def get_average_age_for_season(data, season)
   age = data[season].collect do |details|
     details["age"].to_i
   end
-  total_age = age.reduce(0){|sum, the_age
+  total_age = age.reduce(0){|sum, the_age| sum +=
       
 end
