@@ -48,6 +48,8 @@ end
 
 def get_average_age_for_season(data, season)
   age = data[season].collect do |details|
-    details["age"]
+    details["age"].to_i
+  end
+  
       
 end
