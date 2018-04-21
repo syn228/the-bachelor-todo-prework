@@ -50,6 +50,6 @@ def get_average_age_for_season(data, season)
   data.each do |season_number, stats|
     if season_number == season
     stats.collect do |details|
-      details
+      details["age"].to_i.merge.round
       
 end
