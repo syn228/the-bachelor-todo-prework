@@ -25,11 +25,11 @@ def get_contestant_name(data, occupation)
 end
 
 def count_contestants_by_hometown(data, hometown)
-  counter = []
+
   data.each do |season_number, stats|
     stats.each do |details|
       if details["hometown"] = hometown
-        counter << season_number
+   
       end
     end
   end
